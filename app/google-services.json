@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "569085359100",
+    "firebase_url": "https://beamsampledb.firebaseio.com",
+    "project_id": "beamsampledb",
+    "storage_bucket": "beamsampledb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569085359100:android:2b884fca2e1cfb63",
+        "android_client_info": {
+          "package_name": "mediumph.beam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569085359100-mul2vrr3rm0ttjr62oflpfh0imqcq6c2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBrYDyFI0ivwGPV4mU3T4jH0Dlbj0kxH0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

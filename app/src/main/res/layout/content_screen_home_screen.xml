@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".screens.screen_homeScreen"
+    tools:showIn="@layout/app_bar_screen_home_screen">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="2">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="CHOOSE YOUR SCREEN"
+                android:id="@+id/txt_homeView"
+                android:layout_columnSpan="2"
+                android:textAlignment="center"
+                android:textSize="50dp" />
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="100dp"
+                android:text="Loader"
+                android:id="@+id/btn_homeLoader" />
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="100dp"
+                android:text="Merchant"
+                android:id="@+id/btn_homeMerchant" />
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="100dp"
+                android:text="Event Profile"
+                android:id="@+id/btn_homeEventProfile" />
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="100dp"
+                android:text="Merchant Profile"
+                android:id="@+id/btn_homeMerchantProfile" />
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="100dp"
+                android:text="Activate Functions"
+                android:id="@+id/btn_homeActiveFunctions" />
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="100dp"
+                android:text="Activate Device"
+                android:id="@+id/btn_homeActiveDevice" />
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="100dp"
+                android:text="Register"
+                android:id="@+id/btn_homeRegistration" />
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="100dp"
+                android:text="Sync"
+                android:id="@+id/btn_homeSync" />
+
+        </GridLayout>
+    </FrameLayout>
+
+</RelativeLayout>

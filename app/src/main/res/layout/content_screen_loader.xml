@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".screens.screen_loader"
+    tools:showIn="@layout/app_bar_screen_loader">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/loaderFrame"
+        android:layout_alignParentStart="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/loaderLLayout">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#00838F"
+                android:text="P20"
+                android:id="@+id/btn_20"
+                android:textSize="40dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#00838F"
+                android:text="P50"
+                android:id="@+id/btn_50"
+                android:textSize="40dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#00838F"
+                android:text="P100"
+                android:id="@+id/btn_100"
+                android:textSize="40dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#00838F"
+                android:text="P200"
+                android:id="@+id/btn_200"
+                android:textSize="40dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#00838F"
+                android:text="P500"
+                android:id="@+id/btn_500"
+                android:textSize="40dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#00838F"
+                android:text="P1000"
+                android:id="@+id/btn_1000"
+                android:textSize="40dp" />
+
+            <Button
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:id="@+id/btn_clearLoad"
+                android:drawableTop="@drawable/ic_refresh"
+                android:layout_row="7"
+                android:layout_column="0"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/round_button"
+                android:textAlignment="center"
+                android:padding="18dp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#4BAF50"
+                android:text="Check Load"
+                android:id="@+id/btn_loadUp"
+                android:textSize="40dp" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

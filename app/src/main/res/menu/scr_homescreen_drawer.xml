@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home Screen">
+        <menu>
+            <item
+                android:id="@+id/nav_loader"
+                android:icon="@drawable/ic_loader"
+                android:title="Loader" />
+            <item
+                android:id="@+id/nav_merchant"
+                android:icon="@drawable/ic_merchants"
+                android:title="Merchant" />
+        </menu>
+    </item>
+
+    <item android:title="Master Mode">
+        <menu>
+            <item
+                android:id="@+id/nav_viewProfile"
+                android:icon="@drawable/ic_view_profile"
+                android:title="View Event Profile" />
+            <item
+                android:id="@+id/nav_loadProfile"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="View Merchant Profile" />
+        </menu>
+    </item>
+
+    <item android:title="Registration">
+        <menu>
+            <item
+                android:id="@+id/nav_register"
+                android:icon="@drawable/ic_register"
+                android:title="Register" />
+        </menu>
+    </item>
+
+</menu>
